@@ -1,0 +1,89 @@
+body {
+    background-color: pink;
+     margin: 2rem;
+     padding: 1rem;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(20, 10, 10, 0.2), rgba(1, 1, 1, 1)),
+    url("https://images.unsplash.com/photo-1613312032477-109f6af4b631?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzUxNTczNjF8&ixlib=rb-4.1.0&q=85")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: pink;
+  text-align: center;
+}
+
+.hero .overlay {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* ---------- Gradient Section ---------- */
+.gradient-section {
+  background: linear-gradient(to bottom right, #880E4F, #AD1457);
+  color: pink;
+  text-align: center;
+  padding: 2rem;
+  top: 1rem;
+  bottom: 1rem;
+}
+
+.gradient-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.solid-section {
+  background-color: #C51162;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+}
+
+.solid-section h2 {
+  color: pink;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.solid-section p {
+  max-width: 650px;
+  color: pink;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .gradient-section,
+  .solid-section {
+    padding: 4rem 2rem;
+  }
+}
